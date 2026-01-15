@@ -1,0 +1,68 @@
+/*
+Theme Name: Rose
+Theme URL: http://shyman.fr/
+Author: votre nom
+Description: Théme WordPress personalisé pour Sheedan Hyman.
+Version: 1.0.0
+Licence: GNU General Public Licence V2 or Later
+Text Domain: sheedan 
+*/
+*,
+::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header,
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.article {
+    background: #f4f4f4;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.custom-social-icons a {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.custom-social-icons img {
+    width: 32px;
+    height: 32px;
+}
